@@ -9,6 +9,7 @@
 # Crash logs
 crash.log
 
-# Variables files containing sensitive data
+# Variables files containing sensitive data (окремі файли з секретами)
 *.tfvars
+!terraform.tfvars
 .env
